@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>JS 8</title>
+<h2><b><center>Driving License</center></b></h2>
+</head>
+<body>
+<p><b><i>Check Whether you are Qualified to obtain Driving license</i></b></p><br><br>
+<p><b>Enter your age and click the button:</b></p>
+
+<input id="age"  />
+<button onclick="edith()">OK..</button>
+<p id="elsi">
+</p>
+<script >
+function edith()
+{
+var age;
+age=document.getElementById("age").value;
+         
+if( age > 18 )
+{
+Result="Qualified"
+}
+document.getElementById("elsi").innerHTML = Result;
+}
+</script>
+      
+
+</body>
+</html>
