@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>JS 14</title>
+<h3><center>The Confirmation Box</center></h3>
+</head>
+<body>
+<p><b>Click the Button to enter Sheeba's Page..!! </b></p>
+<input type="button" value="Click Me" onclick="Sheeba();">
+
+<script>
+function Sheeba()
+{
+var a = confirm("Do you want to continue ?");
+if( a == true )
+{
+document.write ("User wants to continue..!");
+return true;
+}
+else
+{
+document.write ("User does not want to continue..!");
+return false;
+ }
+}
+</script>
+</body>
+</html>
