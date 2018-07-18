@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>JS 18</title>
+</head>
+<h2><center>Use of <b><i>"this"</i></b> Keyword</h2>
+<body>
+<p id="sheeba"></p>
+
+<script>
+var person = 
+{
+firstName: "Sheeba",
+lastName : "Elsi",
+id       : 5050,
+fullName : function() 
+{
+return this.firstName + " " + this.lastName;
+}
+};
+
+document.getElementById("sheeba").innerHTML = person.fullName();
+</script>
+
+</body>
+</html>
